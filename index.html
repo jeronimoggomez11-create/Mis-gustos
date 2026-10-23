@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mis gustos y aficiones</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="wrap">
+  <section>
+    <h1>Mis gustos y aficiones</h1>
+    <p class="lead">Más allá del trabajo tengo pasiones que me mantienen feliz, con energía y conectado con la gente que quiero.</p>
+
+    <div class="grid">
+      <!-- Para usar tus fotos: pon la ruta en data-img (ej. "fotos/comida.jpg"). Si lo dejas vacío se muestra el emoji. -->
+      <article class="card" tabindex="0" data-emoji="🍔" data-img="" data-bg="#7a3b12">
+        <div class="head"><div class="ico">🍽️</div><h2>Comer</h2></div>
+        <p>Probar restaurantes nuevos, antojos y buena comida. Para mí comer bien es un plan en sí mismo.</p>
+      </article>
+      <article class="card" tabindex="0" data-emoji="🏋️" data-img="" data-bg="#5a1a1a">
+        <div class="head"><div class="ico">💪</div><h2>El gym</h2></div>
+        <p>Entrenar me da disciplina, energía y la mente despejada después de un día largo.</p>
+      </article>
+      <article class="card" tabindex="0" data-emoji="🛍️" data-img="" data-bg="#1f4d3a">
+        <div class="head"><div class="ico">💸</div><h2>Gastar dinero</h2></div>
+        <p>Darme gustos, estrenar cosas y disfrutar lo que me gano. Sí, mi billetera lo sabe.</p>
+      </article>
+      <article class="card" tabindex="0" data-emoji="🥳" data-img="" data-bg="#4a2a6b">
+        <div class="head"><div class="ico">🍻</div><h2>Salir con mis amigos</h2></div>
+        <p>Reuniones, risas y planes sin agenda. Los buenos amigos son la mejor recarga.</p>
+      </article>
+      <article class="card wide" tabindex="0" data-emoji="🎬" data-img="" data-bg="#1b3a6b">
+        <div class="head"><div class="ico">🎬</div><h2>Ver películas</h2></div>
+        <p>Maratones, estrenos y clásicos. Una buena historia siempre me inspira.</p>
+      </article>
+    </div>
+
+    <div class="quote">"Un buen desarrollador sabe cuándo desconectar."</div>
+  </section>
+
+  <aside class="mascot" aria-hidden="true">
+    <!-- Reemplaza el emoji por tu imagen: <img src="mascota.png" alt=""> -->
+    <div class="pic" id="pic"><img src="fotos/ya.jpeg" alt="Mi foto"></div>
+  </aside>
+</main>
+
+<div id="bubble" aria-hidden="true"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
